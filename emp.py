@@ -4,7 +4,9 @@ if len(sys.argv) != 3:
     sys.exit(1)
     script_name = sys.argv[0]
     name = sys.argv[1]
-    rollno = sys.argv[2]
+    id = sys.argv[2]
+    salary = sys.argv[3]
 print(f"Script Name: {script_name}")
 print(f"Name: {name}")
 print(f"Roll Number: {rollno}")
+print(f"salary: {salary}")
